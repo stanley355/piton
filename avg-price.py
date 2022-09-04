@@ -37,38 +37,3 @@ ax.bar_label(rects4, padding=1)
 fig.tight_layout()
 
 plt.show()
-
-# labels = ['G1', 'G2', 'G3', 'G4', 'G5']
-# men_means = [20, 34, 30, 35, 27]
-# women_means = [25, 32, 34, 20, 25]
-# any_means = [22, 30, 34, 27, 21]
-
-# x = np.arange(len(labels))  # the label locations
-# width = 0.20  # the width of the bars
-
-
-# print(x)
-# print(x + 0.1)
-# print(x + width/2)
-# print(x - width)
-
-# fig, ax = plt.subplots()
-# rects1 = ax.bar(x - 0.2, men_means, width, label='Men')
-# rects2 = ax.bar(x, women_means, width, label='Women')
-# rects3 = ax.bar(x + 0.2, any_means, width, label='Any')
-# rects4 = ax.bar(x + 0.4, any_means, width, label='Any')
-
-# # Add some text for labels, title and custom x-axis tick labels, etc.
-# ax.set_ylabel('Scores')
-# ax.set_title('Scores by group and gender')
-# ax.set_xticks(x, labels)
-# ax.legend()
-
-# ax.bar_label(rects1, padding=2)
-# ax.bar_label(rects2, padding=2)
-# ax.bar_label(rects3, padding=2)
-# ax.bar_label(rects4, padding=2)
-
-# fig.tight_layout()
-
-# plt.show()
