@@ -2,7 +2,7 @@ import requests
 import numpy as np
 import matplotlib.pyplot as plt
 
-response = requests.get("http://localhost:8080/v1/reports/analysis/price/avg?code=IGAR")
+response = requests.get("http://localhost:8080/v1/reports/analysis/price/avg?code=CEKA")
 res = response.json()
 current_year = res['current_year']
 three_year = res['three_year']
@@ -25,7 +25,7 @@ rects4 = ax.bar(x + 0.4, safety_price_limit, width, label='Safety Price limit')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_ylabel('Price')
-ax.set_title('Average Price IGAR')
+ax.set_title('Average Price CEKA')
 ax.set_xticks(x, labels)
 ax.legend()
 
